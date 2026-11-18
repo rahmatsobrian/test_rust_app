@@ -39,5 +39,5 @@ label = "Hello Rust"
 # Signing untuk build release. Keystore dibuat otomatis oleh workflow CI.
 # Untuk rilis sungguhan (Play Store), ganti dengan keystore milik Anda sendiri.
 [package.metadata.android.signing.release]
-path = "$HOME/.android/ci-release.keystore"
+path = "ci-release.keystore"
 keystore_password = "android"
